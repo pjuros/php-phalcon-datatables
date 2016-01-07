@@ -1,2 +1,8 @@
 /cache/
 /config/development/
+Thumbs.db
+.settings
+.project
+.buildpath
+app/cache/*
+app/logs/*
