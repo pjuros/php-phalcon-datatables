@@ -6,8 +6,8 @@ return new \Phalcon\Config(array(
     'database' => array(
         'adapter'     => 'Mysql',
         'host'        => 'localhost',
-        'username'    => 'root',
-        'password'    => '',
+        'username'    => 'test',
+        'password'    => 'test123',
         'dbname'      => 'test',
         'charset'     => 'utf8',
     ),
@@ -19,6 +19,6 @@ return new \Phalcon\Config(array(
         'pluginsDir'     => APP_PATH . '/app/plugins/',
         'libraryDir'     => APP_PATH . '/app/library/',
         'cacheDir'       => APP_PATH . '/app/cache/',
-        'baseUri'        => '/phalcon-test/',
+        'baseUri'        => '/',
     )
 ));
