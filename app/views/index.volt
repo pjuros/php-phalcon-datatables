@@ -7,6 +7,10 @@
         <meta name="description" content="Phalcon PHP and datatables demo site">
 		<meta name="author" content="petar.juros@gmail.com">
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/dataTables.bootstrap.min.css">
+        <script type="text/javascript" charset="utf8" src="/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="/js/dataTables.bootstrap.min.js"></script>
     </head>
     <body>
     <nav class="navbar navbar-default">
