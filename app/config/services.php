@@ -78,3 +78,8 @@ $di->setShared('session', function () {
 
     return $session;
 });
+
+/**
+ * Insert config var to di
+ */
+$di->set('config', $config, true);

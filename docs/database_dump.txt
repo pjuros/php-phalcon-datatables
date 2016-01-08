@@ -1,9 +1,4 @@
-﻿SET NAMES utf8;
-SET time_zone = '+00:00';
-SET foreign_key_checks = 0;
-SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
-
-CREATE TABLE `customers` (
+﻿CREATE TABLE `customers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(100) COLLATE utf8_bin NOT NULL,
   `first_name` varchar(100) COLLATE utf8_bin DEFAULT NULL,
@@ -13,3 +8,17 @@ CREATE TABLE `customers` (
   `registered` date DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user1', 'Mike', 'Weak', 'mike.strong@domain.com', '234', '2016-01-07');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user2', 'Michael', 'Blue', 'michale.blue@domain.com', '32', '2016-01-06');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user3', 'Sarah', 'Curly', 'sarah.curly@domain.com', '24', '2016-01-06');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user4', 'Tina', 'Tarner', 'tina.tarner@domain.com', '4', '2016-01-03');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user5', 'Oglaf', 'Klarin', 'oglaf.klarin@domain.com', '121', '2015-12-07');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user6', 'Ana', 'Mitchel', 'ana.mitchel@domain.com', '65', '2015-12-11');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user7', 'Anamaria', 'Curly', 'anamaria.curly@domain.com', '165', '2015-12-11');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user8', 'Blob', 'Stone', 'blob.stone@domain.com', '22', '2015-12-01');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user9', 'Carl', 'Micka', 'carl.micka@domain.com', '31', '2015-12-05');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user10', 'Mira', 'Otovan', 'mira.otovan@domain.com', '867', '2015-12-06');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user12', 'Vexa', 'Veksic', 'vexa.vexic@domain.com', '17', '2015-12-06');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user13', 'Becks', 'Bekovic', 'beck.bekovic@domain.com', '6', '2015-12-12');
+INSERT INTO `customers` (`username`, `first_name`, `second_name`, `email`, `credits`, `registered`) VALUES ('user14', 'Zidone', 'Zinadin', 'zidone.zinadin@domain.com', '98', '2015-12-30');
