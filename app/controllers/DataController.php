@@ -5,7 +5,7 @@ class DataController extends ControllerBase
 
     public function indexAction()
     {
-
+    	
     }
     
     public function table1Action()
