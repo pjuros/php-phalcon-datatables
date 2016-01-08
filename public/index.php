@@ -15,6 +15,11 @@ try {
      * Read auto-loader
      */
     include APP_PATH . "/app/config/loader.php";
+    
+    /**
+     * Read composer autoload
+     */
+    include APP_PATH . "/vendor/autoload.php";
 
     /**
      * Read services
